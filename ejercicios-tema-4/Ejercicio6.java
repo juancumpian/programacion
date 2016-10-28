@@ -5,7 +5,7 @@ public class Ejercicio6{
 	double altura;
 	double tiempo;
 	
-	System.out.println("dime la altura y te are el tiempo que tarda en caer el objeto");
+	System.out.println("dime la altura y te dare el tiempo que tarda en caer el objeto");
 	altura=teclado.nextDouble();
 	
 	if(altura == 0){

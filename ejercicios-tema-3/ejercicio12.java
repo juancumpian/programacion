@@ -11,7 +11,7 @@ public class ejercicio12{
         System.out.println("dime la media que quieres");
         y = s.nextDouble();
         
-        System.out.println("necesitas sacar: "+ (((x*0.4)+(y))/6));
+        System.out.println("necesitas sacar: "+ ((y * 100) - (x * 40)) / 60);
         
     }
 }
