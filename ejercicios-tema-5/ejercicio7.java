@@ -6,6 +6,7 @@ public class ejercicio7{
 	int contraseña = 8749;
 	int contador = 0;
 	int intento;
+	boolean encontrado=false;
 	
 	do{
 		
@@ -15,7 +16,9 @@ public class ejercicio7{
 		teclado.nextLine();
 		
 		if(intento == contraseña){
-		
+			
+			encontrado = true;
+			
 			System.out.println("acertaste!");
 			
 		}else
@@ -24,7 +27,7 @@ public class ejercicio7{
 		
 		contador++;
 		
-	 }while(contador < 4);
+	 }while(encontrado = false && contador < 4);
 	
 	}
 }

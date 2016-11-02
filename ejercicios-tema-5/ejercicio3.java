@@ -8,6 +8,7 @@ public class ejercicio3{
 	do{
 		
 		if(i%5 == 0){
+			
 		System.out.println(i);
 		}
 		
