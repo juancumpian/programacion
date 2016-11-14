@@ -21,13 +21,13 @@ public class ejercicio7{
 			
 			System.out.println("acertaste!");
 			
-		}else
+		}else  {
 		
 		System.out.println("no acertaste!");
 		
 		contador++;
-		
-	 }while(encontrado = false && contador < 4);
+		}
+	 }while(encontrado == false && contador < 4);
 	
 	}
 }
